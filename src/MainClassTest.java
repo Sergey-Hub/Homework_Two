@@ -1,10 +1,11 @@
 import org.junit.Test;
 
-public class MainClassTest extends MainClass
+public class MainClassTest
 {
     @Test
     public void testGetClassNumber()
     {
+        MainClass c = new MainClass();
         int a = this.getClassNumber();
 
         if (a > 45){
